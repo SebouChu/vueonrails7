@@ -7,7 +7,7 @@ require('esbuild').build({
         './app/javascript/application.vue.js'
     ],
     bundle: true,
-    sourcemap: true,
+    sourcemap: process.env.NODE_ENV !== 'production',
     minify: process.env.NODE_ENV === 'production',
     outdir: 'app/assets/builds',
     watch: args.includes("--watch"),
