@@ -1,24 +1,7 @@
-# README
+# Vue on Rails 7
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Web application with Ruby on Rails 7, esbuild & VueJS 3.
 
-Things you may want to cover:
+## Why?
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To have a simple prototype of VueJS SFCs without using Webpack because I don't like it.
