@@ -11,6 +11,15 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <%= link_to "Vue on Rails 7", root_path, class: "navbar-brand" %>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid py-4">
+      <%= yield %>
+    </main>
   </body>
 </html>
