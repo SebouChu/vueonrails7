@@ -1,5 +1,10 @@
 <script>
+import Timer from "./Timer.vue"
+
 export default {
+  components: {
+    Timer
+  },
   data() {
     return {
       message: 'Hello World!'
@@ -10,6 +15,7 @@ export default {
 
 <template>
   <h1>{{ message }}</h1>
+  <Timer />
 </template>
 
 <style scoped>
